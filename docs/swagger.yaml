@@ -1,0 +1,41 @@
+definitions:
+  models.HttpResponse:
+    properties:
+      code:
+        type: string
+      data: {}
+      massage:
+        type: string
+      total:
+        type: integer
+    type: object
+info:
+  contact: {}
+paths:
+  /api/uploadFile:
+    post:
+      consumes:
+      - application/json
+      description: UploadFile
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.HttpResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.HttpResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/models.HttpResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.HttpResponse'
+      tags:
+      - UploadFile
+swagger: "2.0"

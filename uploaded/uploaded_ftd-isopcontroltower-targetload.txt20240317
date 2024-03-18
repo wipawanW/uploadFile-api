@@ -1,0 +1,19 @@
+{
+   "messageKey": "TargetLoadDefault20240221111617",
+   "eventName": "SYNC",
+   "messageVersion": "1.0.0",
+   "messageDate": "2024-02-21 11:16:18.461",
+   "data": [
+      {
+         "Year": "2024",
+         "Month": "2",
+         "Revise": "1",
+         "FileId": "1754",
+         "SaleMonth": "202206",
+         "TargetLoadLiter": "17000000.0000000000",
+         "TargetLoadCase": "2284946.2366000000",
+         "Id": "89",
+         "CreatedDate": "2024-02-21 11:14:37.853"
+      }
+   ]
+}
